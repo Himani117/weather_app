@@ -47,7 +47,7 @@ class _LocationScreenState extends State<LocationScreen> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/location_background.jpg'),
+            image: AssetImage('assets/abc.jpg'),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
                 Colors.white.withOpacity(0.8), BlendMode.dstATop),
@@ -73,8 +73,8 @@ class _LocationScreenState extends State<LocationScreen> {
                       color: Colors.white,
                     ),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.transparent,
-                      onPrimary: Colors.blue,
+                      backgroundColor: Colors.transparent,
+                      foregroundColor: Colors.blue,
                     ),
                   ),
                   ElevatedButton(
@@ -98,8 +98,8 @@ class _LocationScreenState extends State<LocationScreen> {
                       color: Colors.white,
                     ),
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.transparent,
-                      onPrimary: Colors.blue,
+                      backgroundColor: Colors.transparent,
+                      foregroundColor: Colors.blue,
                     ),
                   ),
                 ],
